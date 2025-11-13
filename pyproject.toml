@@ -1,0 +1,17 @@
+[project]
+name = "streamhub-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bcrypt==4.0.1",
+    "dotenv>=0.9.9",
+    "fastapi>=0.121.1",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2-binary>=2.9.11",
+    "pydantic>=2.12.4",
+    "python-jose[cryptography]>=3.5.0",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+]
